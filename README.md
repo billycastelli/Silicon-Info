@@ -6,6 +6,7 @@
 A Mac status bar app to quickly identify the architecture of the currently running application
 
 [Download zip](Silicon&#32;Info.zip) from repo
+
 ![ARM](images/window.png)
 
 
