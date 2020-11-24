@@ -12,13 +12,18 @@ Useful for quickly determining if an application is running natively on Apple Si
 ![ARM](images/window.png)
 
 
-## Download
-[Download zip](Silicon&#32;Info.zip) from repo
+## Installation
+- [Download zip](Silicon&#32;Info.zip) from repo
+- Move .app file to Applications folder
+- Open application
+- If “`Silicon Info.app` can’t be opened because Apple cannot check it for malicious software" appears, open Systems Preferences to the Security and Privacy window.
+![ARM](images/security.png)
+- Select "Open Anyway"
 
-
-### Example of a native ARM application
+## Screenshots
+#### Example of a native ARM application
 ![ARM](images/arm-example.png)
 
-### Example of an application running using Rosetta
+#### Example of an application running using Rosetta
 ![x86](images/x86-example.png)
 
