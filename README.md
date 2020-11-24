@@ -3,6 +3,10 @@ A status bar tool that allows the user to quickly view the architecture of the c
 
 Useful for quickly determining if an application is running natively on Apple Silicon or running via Rosetta 2
 
+## Download
+[Download zip](Silicon&#32;Info.zip) from repo
+
+
 ### Example of a native ARM application
 ![ARM](images/arm-example.png)
 
