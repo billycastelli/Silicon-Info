@@ -5,7 +5,7 @@
 
 A Mac status bar app to quickly identify the architecture of the currently running application
 
-[Download zip](Silicon&#32;Info.zip) from repo
+[Download zip](https://github.com/billycastelli/Silicon-Info/releases/download/1.0/Silicon.Info.app.zip) from repo
 
 ![ARM](images/window.png)
 
