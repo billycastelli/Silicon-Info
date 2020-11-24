@@ -1,5 +1,5 @@
-# mac-architecture-menu-tool
-Status bar tool that allows the user to quickly view the architecture of the currently running application
+# Silicon Info
+A status bar tool that allows the user to quickly view the architecture of the currently running application
 
 Useful for quickly determining if an application is running natively on Apple Silicon or running via Rosetta 2
 
