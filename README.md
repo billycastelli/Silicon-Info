@@ -1,7 +1,16 @@
 # Silicon Info
-A status bar tool that allows the user to quickly view the architecture of the currently running application
+<img style="float: left;" src="images/icon-128.png">
 
-Useful for quickly determining if an application is running natively on Apple Silicon or running via Rosetta 2
+Quickly identify the architecture of the currently running application
+
+[Download zip](Silicon&#32;Info.zip) from repo
+![ARM](images/window.png)
+
+## About
+Silicon Info is a tiny menu bar application allows the user to quickly view the architecture of the currently running application.
+
+Useful for quickly determining if an application is running natively on Apple Silicon or running via Rosetta 2.
+
 
 ### Example of a native ARM application
 ![ARM](images/arm-example.png)
