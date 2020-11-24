@@ -16,7 +16,6 @@ struct ContentView: View {
             Text(Image(nsImage: appIcon))
             Text(appName).font(.title)
             Text(architecture)
-
         }
     }
 }

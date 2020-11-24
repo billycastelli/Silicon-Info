@@ -1,17 +1,15 @@
 {
   "images" : [
     {
-      "filename" : "03b9b045c58a908a006bc34ea96f290f.svg",
+      "filename" : "processor-icon.svg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "03b9b045c58a908a006bc34ea96f290f-1.svg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "03b9b045c58a908a006bc34ea96f290f-2.svg",
       "idiom" : "universal",
       "scale" : "3x"
     }

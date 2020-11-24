@@ -7,6 +7,12 @@
 
 import SwiftUI
 
+struct RunningApplication {
+    let appName: String
+    let architecture: String
+    let appImage: NSImage
+}
+
 @main
 struct arch_menuApp: App {
     @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
@@ -26,26 +32,30 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
     func applicationDidFinishLaunching(_ notification: Notification) {
         menu.delegate = self;
         
-        let runningApp: [String:Any] = getAppInfo()
-        let contentView = ContentView(appName: runningApp["appName"] as! String, architecture:  runningApp["architecture"] as! String, appIcon: runningApp["appImage"] as! NSImage)
+        let app = getAppInfo()
+        let contentView = ContentView(appName: app.appName, architecture: app.architecture, appIcon: app.appImage)
         
         let menuItem = NSMenuItem()
         let view = NSHostingView(rootView: contentView)
-        view.frame = NSRect(x: 0, y: 0, width: 175, height: 125)
-        
+        view.frame = NSRect(x: 0, y: 0, width: 200, height: 100)
+
         menuItem.view = view
         menu.addItem(menuItem)
         
+        menu.addItem(NSMenuItem(title: "Quit Quotes", action: #selector(NSApplication.terminate(_:)), keyEquivalent: "q"))
+        
         statusBarItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
-        statusBarItem?.button?.title = "🖥"
+        let itemImage = NSImage(named: "processor-icon")
+        itemImage?.isTemplate = true
+        statusBarItem?.button?.image = itemImage
         statusBarItem?.menu = menu
     }
     
     
     func menuWillOpen(_ menu: NSMenu) {
-        let runningApp: [String:Any] = getAppInfo()
-        let contentView = ContentView(appName: runningApp["appName"] as! String, architecture:  runningApp["architecture"] as! String, appIcon: runningApp["appImage"] as! NSImage)
-        
+        let app = getAppInfo()
+        let contentView = ContentView(appName: app.appName, architecture: app.architecture, appIcon: app.appImage)
+
         let menuItem = NSMenuItem()
         let view = NSHostingView(rootView: contentView)
         view.frame = NSRect(x: 0, y: 0, width: 200, height: 100)
@@ -53,10 +63,11 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
         menuItem.view = view
         menu.removeAllItems()
         menu.addItem(menuItem)
+        menu.addItem(NSMenuItem(title: "Quit Silicon Info", action: #selector(NSApplication.terminate(_:)), keyEquivalent: "q"))
     }
+
     
-    
-    func getAppInfo() -> Dictionary<String, Any>{
+    func getAppInfo() -> RunningApplication{
         let frontAppName = NSWorkspace.shared.frontmostApplication?.localizedName
         let frontAppImage = NSWorkspace.shared.frontmostApplication?.icon
         let architectureInt = NSWorkspace.shared.frontmostApplication?.executableArchitecture
@@ -76,7 +87,6 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
         default:
             architecture = "Unknown"
         }
-        return ["appName": frontAppName!, "appImage": frontAppImage as Any, "architecture": architecture]
+        return RunningApplication(appName: frontAppName!, architecture: architecture, appImage: frontAppImage!)
     }
 }
-
