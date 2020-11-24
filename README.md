@@ -3,9 +3,9 @@ A status bar tool that allows the user to quickly view the architecture of the c
 
 Useful for quickly determining if an application is running natively on Apple Silicon or running via Rosetta 2
 
-Example of a native ARM application
+### Example of a native ARM application
 ![ARM](images/arm-example.png)
 
-Example of an application running using Rosetta
+### Example of an application running using Rosetta
 ![x86](images/x86-example.png)
 
