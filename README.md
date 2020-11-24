@@ -1,5 +1,5 @@
 # Silicon Info
-<img style="float: left;" src="images/icon-128.png">
+<img style="float: left;" src="images/Icon-128.png">
 
 Quickly identify the architecture of the currently running application
 
