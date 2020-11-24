@@ -3,17 +3,13 @@
 ## About
 ![Icon](images/Icon-128.png)
 
-A Mac status bar app to quickly identify the architecture of the currently running application
+Silicon Info is a tiny menu bar application allows the user to quickly view the architecture of the currently running application.
+
+Useful for quickly determining if an application is running natively on Apple Silicon or running via Rosetta 2.
 
 [Download zip](https://github.com/billycastelli/Silicon-Info/releases/download/1.0/Silicon.Info.app.zip) from repo
 
 ![ARM](images/window.png)
-
-
-## About
-Silicon Info is a tiny menu bar application allows the user to quickly view the architecture of the currently running application.
-
-Useful for quickly determining if an application is running natively on Apple Silicon or running via Rosetta 2.
 
 
 ## Download
