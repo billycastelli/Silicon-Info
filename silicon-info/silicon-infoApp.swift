@@ -1,6 +1,6 @@
 //
-//  arch_menuApp.swift
-//  arch-menu
+//  SiliconInfoApp.swift
+//  silicon-info
 //
 //  Created by Billy Castelli on 11/22/20.
 //
@@ -14,7 +14,7 @@ struct RunningApplication {
 }
 
 @main
-struct arch_menuApp: App {
+struct SiliconInfoApp: App {
     @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     var body: some Scene {
         Settings {

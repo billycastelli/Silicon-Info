@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  arch-menu
+//  silicon-info
 //
 //  Created by Billy Castelli on 11/22/20.
 //
@@ -12,9 +12,12 @@ struct ContentView: View {
     let architecture: String
     let appIcon: NSImage
     var body: some View {
-        VStack {
-            Text(Image(nsImage: appIcon))
+        Label {
             Text(appName).font(.title)
+        } icon: {
+            Image(nsImage: appIcon)
+        }
+        VStack {
             Text(architecture)
         }
     }

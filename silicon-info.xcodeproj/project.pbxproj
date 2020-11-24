@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06B1C290256B5CE6000CE962 /* arch_menuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B1C28F256B5CE6000CE962 /* arch_menuApp.swift */; };
+		06B1C290256B5CE6000CE962 /* silicon-infoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B1C28F256B5CE6000CE962 /* silicon-infoApp.swift */; };
 		06B1C292256B5CE6000CE962 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B1C291256B5CE6000CE962 /* ContentView.swift */; };
 		06B1C294256B5CE8000CE962 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06B1C293256B5CE8000CE962 /* Assets.xcassets */; };
 		06B1C297256B5CE8000CE962 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06B1C296256B5CE8000CE962 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		06B1C28C256B5CE6000CE962 /* arch-menu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "arch-menu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		06B1C28F256B5CE6000CE962 /* arch_menuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arch_menuApp.swift; sourceTree = "<group>"; };
+		06B1C28C256B5CE6000CE962 /* silicon-info.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "silicon-info.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06B1C28F256B5CE6000CE962 /* silicon-infoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "silicon-infoApp.swift"; sourceTree = "<group>"; };
 		06B1C291256B5CE6000CE962 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		06B1C293256B5CE8000CE962 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06B1C296256B5CE8000CE962 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		06B1C298256B5CE8000CE962 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		06B1C299256B5CE8000CE962 /* arch_menu.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = arch_menu.entitlements; sourceTree = "<group>"; };
+		06B1C299256B5CE8000CE962 /* silicon-info.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "silicon-info.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +37,7 @@
 		06B1C283256B5CE6000CE962 = {
 			isa = PBXGroup;
 			children = (
-				06B1C28E256B5CE6000CE962 /* arch-menu */,
+				06B1C28E256B5CE6000CE962 /* silicon-info */,
 				06B1C28D256B5CE6000CE962 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,22 +45,22 @@
 		06B1C28D256B5CE6000CE962 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				06B1C28C256B5CE6000CE962 /* arch-menu.app */,
+				06B1C28C256B5CE6000CE962 /* silicon-info.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		06B1C28E256B5CE6000CE962 /* arch-menu */ = {
+		06B1C28E256B5CE6000CE962 /* silicon-info */ = {
 			isa = PBXGroup;
 			children = (
-				06B1C28F256B5CE6000CE962 /* arch_menuApp.swift */,
+				06B1C28F256B5CE6000CE962 /* silicon-infoApp.swift */,
 				06B1C291256B5CE6000CE962 /* ContentView.swift */,
 				06B1C293256B5CE8000CE962 /* Assets.xcassets */,
 				06B1C298256B5CE8000CE962 /* Info.plist */,
-				06B1C299256B5CE8000CE962 /* arch_menu.entitlements */,
+				06B1C299256B5CE8000CE962 /* silicon-info.entitlements */,
 				06B1C295256B5CE8000CE962 /* Preview Content */,
 			);
-			path = "arch-menu";
+			path = "silicon-info";
 			sourceTree = "<group>";
 		};
 		06B1C295256B5CE8000CE962 /* Preview Content */ = {
@@ -74,9 +74,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		06B1C28B256B5CE6000CE962 /* arch-menu */ = {
+		06B1C28B256B5CE6000CE962 /* silicon-info */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 06B1C29C256B5CE8000CE962 /* Build configuration list for PBXNativeTarget "arch-menu" */;
+			buildConfigurationList = 06B1C29C256B5CE8000CE962 /* Build configuration list for PBXNativeTarget "silicon-info" */;
 			buildPhases = (
 				06B1C288256B5CE6000CE962 /* Sources */,
 				06B1C289256B5CE6000CE962 /* Frameworks */,
@@ -86,9 +86,9 @@
 			);
 			dependencies = (
 			);
-			name = "arch-menu";
+			name = "silicon-info";
 			productName = "arch-menu";
-			productReference = 06B1C28C256B5CE6000CE962 /* arch-menu.app */;
+			productReference = 06B1C28C256B5CE6000CE962 /* silicon-info.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 06B1C287256B5CE6000CE962 /* Build configuration list for PBXProject "arch-menu" */;
+			buildConfigurationList = 06B1C287256B5CE6000CE962 /* Build configuration list for PBXProject "silicon-info" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				06B1C28B256B5CE6000CE962 /* arch-menu */,
+				06B1C28B256B5CE6000CE962 /* silicon-info */,
 			);
 		};
 /* End PBXProject section */
@@ -141,7 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				06B1C292256B5CE6000CE962 /* ContentView.swift in Sources */,
-				06B1C290256B5CE6000CE962 /* arch_menuApp.swift in Sources */,
+				06B1C290256B5CE6000CE962 /* silicon-infoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,18 +268,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "arch-menu/arch_menu.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "silicon-info/silicon-info.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"arch-menu/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"silicon-info/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "arch-menu/Info.plist";
+				INFOPLIST_FILE = "silicon-info/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.wcastelli.arch-menu";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wcastelli.silicon-info";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -290,18 +290,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "arch-menu/arch_menu.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "silicon-info/silicon-info.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"arch-menu/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"silicon-info/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "arch-menu/Info.plist";
+				INFOPLIST_FILE = "silicon-info/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.wcastelli.arch-menu";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wcastelli.silicon-info";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -310,7 +310,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		06B1C287256B5CE6000CE962 /* Build configuration list for PBXProject "arch-menu" */ = {
+		06B1C287256B5CE6000CE962 /* Build configuration list for PBXProject "silicon-info" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				06B1C29A256B5CE8000CE962 /* Debug */,
@@ -319,7 +319,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		06B1C29C256B5CE8000CE962 /* Build configuration list for PBXNativeTarget "arch-menu" */ = {
+		06B1C29C256B5CE8000CE962 /* Build configuration list for PBXNativeTarget "silicon-info" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				06B1C29D256B5CE8000CE962 /* Debug */,
