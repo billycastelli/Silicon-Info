@@ -77,9 +77,9 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
         case NSBundleExecutableArchitectureARM64:
             architecture = "arm64 - Apple Silicon"
         case NSBundleExecutableArchitectureI386:
-            architecture = "i386 - Intel 32-bit"
+            architecture = "x86 - Intel 32-bit"
         case NSBundleExecutableArchitectureX86_64:
-            architecture = "X86-64 - Intel 64-bit"
+            architecture = "x86-64 - Intel 64-bit"
         case NSBundleExecutableArchitecturePPC:
             architecture = "ppc32 - PowerPC 32-bit"
         case NSBundleExecutableArchitecturePPC:
