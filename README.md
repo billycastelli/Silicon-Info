@@ -7,13 +7,13 @@ Silicon Info is a tiny menu bar application allows the user to quickly view the 
 
 Useful for quickly determining if an application is running natively on Apple Silicon or running via Rosetta 2.
 
-[Download zip](https://github.com/billycastelli/Silicon-Info/releases/download/1.0/Silicon.Info.app.zip) from repo
+[Download zip](https://github.com/billycastelli/Silicon-Info/releases/download/1.0.1/Silicon.Info.app.zip) from repo
 
 ![ARM](images/window.png)
 
 
 ## Installation
-- [Download zip](https://github.com/billycastelli/Silicon-Info/releases/download/1.0/Silicon.Info.app.zip) from repo
+- [Download zip](https://github.com/billycastelli/Silicon-Info/releases/download/1.0.1/Silicon.Info.app.zip) from repo
 - Move .app file to Applications folder
 - Open application
 - If “`Silicon Info.app` can’t be opened because Apple cannot check it for malicious software" appears, open Systems Preferences to the Security and Privacy window.
