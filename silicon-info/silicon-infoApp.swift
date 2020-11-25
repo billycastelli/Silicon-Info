@@ -75,15 +75,13 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
         var architecture = ""
         switch architectureInt {
         case NSBundleExecutableArchitectureARM64:
-            architecture = "ARM64 - Apple Silicon"
+            architecture = "arm64 - Apple Silicon"
         case NSBundleExecutableArchitectureI386:
-            architecture = "I386 - Intel 32 bit"
+            architecture = "x86 - Intel 32-bit"
         case NSBundleExecutableArchitectureX86_64:
-            architecture = "X86_64 - Intel 64 bit"
+            architecture = "x86-64 - Intel 64-bit"
         case NSBundleExecutableArchitecturePPC:
-            architecture = "PPC - 32 bit"
-        case NSBundleExecutableArchitecturePPC:
-            architecture = "PPC - 64 bit"
+            architecture = "ppc64 - PowerPC 64-bit"
         default:
             architecture = "Unknown"
         }
