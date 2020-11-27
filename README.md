@@ -9,12 +9,14 @@ Useful for quickly determining if an application is running natively on Apple Si
 
 **Update**: [**Now on the Mac App Store**](https://apps.apple.com/us/app/silicon-info/id1542271266)
 
-[Download zip](https://github.com/billycastelli/Silicon-Info/releases/download/1.0.2/Silicon.Info.app.zip) from repo
-
 ![ARM](images/window.png)
 
 
 ## Installation
+### Download from Mac App Store
+- [App store link](https://apps.apple.com/us/app/silicon-info/id1542271266)
+
+### Download release from Github
 - [Download zip](https://github.com/billycastelli/Silicon-Info/releases/download/1.0.2/Silicon.Info.app.zip) from repo
 - Move .app file to Applications folder
 - Open application
