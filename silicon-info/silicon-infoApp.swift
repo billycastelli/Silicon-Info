@@ -81,6 +81,8 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
         case NSBundleExecutableArchitectureX86_64:
             architecture = "x86-64 - Intel 64-bit"
         case NSBundleExecutableArchitecturePPC:
+            architecture = "ppc32 - PowerPC 32-bit"
+        case NSBundleExecutableArchitecturePPC64:
             architecture = "ppc64 - PowerPC 64-bit"
         default:
             architecture = "Unknown"

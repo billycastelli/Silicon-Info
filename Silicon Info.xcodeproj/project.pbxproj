@@ -14,7 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		06B1C28C256B5CE6000CE962 /* silicon-info.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "silicon-info.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06B1C28C256B5CE6000CE962 /* Silicon Info.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Silicon Info.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06B1C28F256B5CE6000CE962 /* silicon-infoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "silicon-infoApp.swift"; sourceTree = "<group>"; };
 		06B1C291256B5CE6000CE962 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		06B1C293256B5CE8000CE962 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 		06B1C28D256B5CE6000CE962 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				06B1C28C256B5CE6000CE962 /* silicon-info.app */,
+				06B1C28C256B5CE6000CE962 /* Silicon Info.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -74,9 +74,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		06B1C28B256B5CE6000CE962 /* silicon-info */ = {
+		06B1C28B256B5CE6000CE962 /* Silicon Info */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 06B1C29C256B5CE8000CE962 /* Build configuration list for PBXNativeTarget "silicon-info" */;
+			buildConfigurationList = 06B1C29C256B5CE8000CE962 /* Build configuration list for PBXNativeTarget "Silicon Info" */;
 			buildPhases = (
 				06B1C288256B5CE6000CE962 /* Sources */,
 				06B1C289256B5CE6000CE962 /* Frameworks */,
@@ -86,9 +86,9 @@
 			);
 			dependencies = (
 			);
-			name = "silicon-info";
+			name = "Silicon Info";
 			productName = "arch-menu";
-			productReference = 06B1C28C256B5CE6000CE962 /* silicon-info.app */;
+			productReference = 06B1C28C256B5CE6000CE962 /* Silicon Info.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -106,7 +106,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 06B1C287256B5CE6000CE962 /* Build configuration list for PBXProject "silicon-info" */;
+			buildConfigurationList = 06B1C287256B5CE6000CE962 /* Build configuration list for PBXProject "Silicon Info" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -119,7 +119,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				06B1C28B256B5CE6000CE962 /* silicon-info */,
+				06B1C28B256B5CE6000CE962 /* Silicon Info */,
 			);
 		};
 /* End PBXProject section */
@@ -273,8 +273,10 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.0.2;
 				DEVELOPMENT_ASSET_PATHS = "\"silicon-info/Preview Content\"";
 				DEVELOPMENT_TEAM = 2J6P9NJJH8;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "silicon-info/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -282,6 +284,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wcastelli.silicon-info";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -298,8 +301,10 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.0.2;
 				DEVELOPMENT_ASSET_PATHS = "\"silicon-info/Preview Content\"";
 				DEVELOPMENT_TEAM = 2J6P9NJJH8;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "silicon-info/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -307,6 +312,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wcastelli.silicon-info";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -317,7 +323,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		06B1C287256B5CE6000CE962 /* Build configuration list for PBXProject "silicon-info" */ = {
+		06B1C287256B5CE6000CE962 /* Build configuration list for PBXProject "Silicon Info" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				06B1C29A256B5CE8000CE962 /* Debug */,
@@ -326,7 +332,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		06B1C29C256B5CE8000CE962 /* Build configuration list for PBXNativeTarget "silicon-info" */ = {
+		06B1C29C256B5CE8000CE962 /* Build configuration list for PBXNativeTarget "Silicon Info" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				06B1C29D256B5CE8000CE962 /* Debug */,
