@@ -9,7 +9,7 @@ Useful for quickly determining if an application is running natively on Apple Si
 
 [Download zip](https://github.com/billycastelli/Silicon-Info/releases/download/1.0.1/Silicon.Info.app.zip) from repo
 
-![ARM](images/window.png)
+![ARM](images/finder.png)
 
 
 ## Installation
@@ -21,6 +21,8 @@ Useful for quickly determining if an application is running natively on Apple Si
 - Select "Open Anyway"
 
 ## Screenshots
+#### Indicator icon
+![Indicator Icon](images/indicator-icon.png)
 #### Example of a native ARM application
 ![ARM](images/arm-example.png)
 
