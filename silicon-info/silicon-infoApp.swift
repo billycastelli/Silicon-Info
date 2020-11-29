@@ -88,7 +88,6 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
     @objc func iconSwitcher(notification: NSNotification) {
         let runningApplication = notification.userInfo!["NSWorkspaceApplicationKey"] as! NSRunningApplication
         let app = getApplicationInfo(application: runningApplication)
-        print(app.appName)
         let itemImage = app.processorIcon;
         itemImage.isTemplate = true
         statusBarItem?.button?.image = itemImage
