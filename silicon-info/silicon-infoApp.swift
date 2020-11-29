@@ -43,7 +43,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
         menu.delegate = self;
         
         // Grab application information from frontmost application
-        let app = getApplicationInfo(application: NSWorkspace.shared.frontmostApplication!)
+        let app = getApplicationInfo(application: NSWorkspace.shared.frontmostApplication)
         
         // Set view
         let contentView = ContentView(appName: app.appName, architecture: app.architecture, appIcon: app.appImage)
@@ -66,7 +66,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
     // Run function when menu bar icon is clicked
     func menuWillOpen(_ menu: NSMenu) {
         // Grab application information from frontmost application
-        let app = getApplicationInfo(application: NSWorkspace.shared.frontmostApplication!)
+        let app = getApplicationInfo(application: NSWorkspace.shared.frontmostApplication)
         
         // Set view
         let contentView = ContentView(appName: app.appName, architecture: app.architecture, appIcon: app.appImage)
@@ -86,40 +86,51 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
     
     // Run function when a new application is sent to front
     @objc func iconSwitcher(notification: NSNotification) {
-        let runningApplication = notification.userInfo!["NSWorkspaceApplicationKey"] as! NSRunningApplication
-        let app = getApplicationInfo(application: runningApplication)
+        guard let notification = notification.userInfo else {
+            return
+        }
+        guard let runningApplication = notification["NSWorkspaceApplicationKey"] else {
+            return
+        }
+        let app = getApplicationInfo(application: runningApplication as? NSRunningApplication)
         let itemImage = app.processorIcon;
         itemImage.isTemplate = true
         statusBarItem?.button?.image = itemImage
     }
     
-    func getApplicationInfo(application: NSRunningApplication) ->RunningApplication{
-        let frontAppName = application.localizedName
-        let frontAppImage = application.icon
-        let architectureInt = application.executableArchitecture
-        
+    func getApplicationInfo(application: NSRunningApplication?) ->RunningApplication{
+        // Check if application is nil, passed in item is not guaranteed to be an object
+        guard let runningApp = application else {
+            return RunningApplication(appName: "Unknown", architecture: "Unknown • Unknown", appImage: NSImage(), processorIcon: NSImage())
+        }
+        // After checking for nil, we can refer to runningApp, guarenteed to be NSRunningApplication
+        let frontAppName = runningApp.localizedName ?? String()
+        let frontAppImage = runningApp.icon ?? NSImage()
+        let architectureInt = runningApp.executableArchitecture
+
+
         var architecture = ""
         var processorIcon = NSImage()
         switch architectureInt {
         case NSBundleExecutableArchitectureARM64:
             architecture = "arm64 • Apple Silicon"
-            processorIcon = NSImage(named: "processor-icon")!
+            processorIcon = NSImage(named: "processor-icon") ?? NSImage()
         case NSBundleExecutableArchitectureI386:
             architecture = "x86 • Intel 32-bit"
-            processorIcon = NSImage(named: "processor-icon-empty")!
+            processorIcon = NSImage(named: "processor-icon-empty") ?? NSImage()
         case NSBundleExecutableArchitectureX86_64:
             architecture = "x86-64 • Intel 64-bit"
-            processorIcon = NSImage(named: "processor-icon-empty")!
+            processorIcon = NSImage(named: "processor-icon-empty") ?? NSImage()
         case NSBundleExecutableArchitecturePPC:
             architecture = "ppc32 • PowerPC 32-bit"
-            processorIcon = NSImage(named: "processor-icon-empty")!
+            processorIcon = NSImage(named: "processor-icon-empty") ?? NSImage()
         case NSBundleExecutableArchitecturePPC64:
             architecture = "ppc64 • PowerPC 64-bit"
-            processorIcon = NSImage(named: "processor-icon-empty")!
+            processorIcon = NSImage(named: "processor-icon-empty") ?? NSImage()
         default:
-            architecture = "Unknown"
-            processorIcon = NSImage(named: "processor-icon-empty")!
+            architecture = "Unknown • Unknown"
+            processorIcon = NSImage(named: "processor-icon-empty") ?? NSImage()
         }
-        return RunningApplication(appName: frontAppName!, architecture: architecture, appImage: frontAppImage!, processorIcon: processorIcon)
+        return RunningApplication(appName: frontAppName, architecture: architecture, appImage: frontAppImage, processorIcon: processorIcon)
     }
 }
