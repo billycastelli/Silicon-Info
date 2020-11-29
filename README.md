@@ -9,8 +9,7 @@ Useful for quickly determining if an application is running natively on Apple Si
 
 **Update**: [**Now on the Mac App Store**](https://apps.apple.com/us/app/silicon-info/id1542271266)
 
-![ARM](images/window.png)
-
+![ARM](images/finder.png)
 
 ## Installation
 ### Download from Mac App Store
@@ -25,6 +24,9 @@ Useful for quickly determining if an application is running natively on Apple Si
 - Select "Open Anyway"
 
 ## Screenshots
+#### Indicator icon
+<img src="images/indicator-icon.png" width="500" />
+
 #### Example of a native ARM application
 ![ARM](images/arm-example.png)
 

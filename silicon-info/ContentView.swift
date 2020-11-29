@@ -25,6 +25,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(appName: "", architecture: "", appIcon: NSImage(imageLiteralResourceName: "ProcessorIcon"))
+        ContentView(appName: "", architecture: "", appIcon: NSImage(named: "processor-icon")!)
     }
 }
