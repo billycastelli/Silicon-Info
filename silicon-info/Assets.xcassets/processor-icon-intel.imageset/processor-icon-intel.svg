@@ -1,0 +1,12 @@
+<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M13.2188 3.375H4.78125C4.0046 3.375 3.375 4.0046 3.375 4.78125V13.2188C3.375 13.9954 4.0046 14.625 4.78125 14.625H13.2188C13.9954 14.625 14.625 13.9954 14.625 13.2188V4.78125C14.625 4.0046 13.9954 3.375 13.2188 3.375Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M6.75 0.75V3" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M11.25 0.75V3" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M6.75 15V17.25" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M11.25 15V17.25" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M15 6.75H17.25" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M15 10.5H17.25" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M0.75 6.75H3" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M0.75 10.5H3" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9.79 13.04C9.41 13.04 9.10333 12.9433 8.87 12.75C8.63667 12.55 8.52 12.27 8.52 11.91V7.98H10.1V11.46C10.1 11.6133 10.1233 11.7167 10.17 11.77C10.2167 11.8233 10.2867 11.85 10.38 11.85C10.4333 11.85 10.4867 11.8467 10.54 11.84C10.5933 11.8267 10.6267 11.8167 10.64 11.81L10.78 12.8C10.7733 12.8067 10.7433 12.8233 10.69 12.85C10.6367 12.87 10.5667 12.8967 10.48 12.93C10.3933 12.9567 10.29 12.98 10.17 13C10.05 13.0267 9.92333 13.04 9.79 13.04ZM9.33 5.57C9.61 5.57 9.82333 5.65333 9.97 5.82C10.1167 5.98667 10.19 6.19667 10.19 6.45C10.19 6.71 10.1133 6.92667 9.96 7.1C9.81333 7.27333 9.59 7.36 9.29 7.36C9.01 7.36 8.79333 7.27667 8.64 7.11C8.49333 6.93667 8.42 6.73333 8.42 6.5C8.42 6.23333 8.49667 6.01333 8.65 5.84C8.80333 5.66 9.03 5.57 9.33 5.57Z" fill="black"/>
+</svg>
