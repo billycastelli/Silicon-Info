@@ -16,7 +16,7 @@ Useful for quickly determining if an application is running natively on Apple Si
 - [App store link](https://apps.apple.com/us/app/silicon-info/id1542271266)
 
 ### Download release from Github
-- [Download zip](https://github.com/billycastelli/Silicon-Info/releases/download/1.0.1/Silicon.Info.app.zip) from repo
+- [Download zip](https://github.com/billycastelli/Silicon-Info/releases/download/1.0.2/Silicon.Info.app.zip) from repo
 - Move .app file to Applications folder
 - Open application
 - If “`Silicon Info.app` can’t be opened because Apple cannot check it for malicious software" appears, open Systems Preferences to the Security and Privacy window.

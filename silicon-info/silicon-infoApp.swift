@@ -102,19 +102,19 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
         var processorIcon = NSImage()
         switch architectureInt {
         case NSBundleExecutableArchitectureARM64:
-            architecture = "arm64 - Apple Silicon"
+            architecture = "arm64 • Apple Silicon"
             processorIcon = NSImage(named: "processor-icon")!
         case NSBundleExecutableArchitectureI386:
-            architecture = "x86 - Intel 32-bit"
+            architecture = "x86 • Intel 32-bit"
             processorIcon = NSImage(named: "processor-icon-empty")!
         case NSBundleExecutableArchitectureX86_64:
-            architecture = "x86-64 - Intel 64-bit"
+            architecture = "x86-64 • Intel 64-bit"
             processorIcon = NSImage(named: "processor-icon-empty")!
         case NSBundleExecutableArchitecturePPC:
-            architecture = "ppc32 - PowerPC 32-bit"
+            architecture = "ppc32 • PowerPC 32-bit"
             processorIcon = NSImage(named: "processor-icon-empty")!
         case NSBundleExecutableArchitecturePPC64:
-            architecture = "ppc64 - PowerPC 64-bit"
+            architecture = "ppc64 • PowerPC 64-bit"
             processorIcon = NSImage(named: "processor-icon-empty")!
         default:
             architecture = "Unknown"
