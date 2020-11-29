@@ -25,7 +25,7 @@ Useful for quickly determining if an application is running natively on Apple Si
 
 ## Screenshots
 #### Indicator icon
-<img src="images/indicator-icon.png" width="400" />
+<img src="images/indicator-icon.png" width="500" />
 
 #### Example of a native ARM application
 ![ARM](images/arm-example.png)
