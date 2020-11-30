@@ -87,7 +87,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
     // Run function when a new application is sent to front
     @objc func iconSwitcher(notification: NSNotification) {
         guard let notification = notification.userInfo else {
-            return
+            return;
         }
         guard let runningApplication = notification["NSWorkspaceApplicationKey"] else {
             return
@@ -101,7 +101,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
     func getApplicationInfo(application: NSRunningApplication?) ->RunningApplication{
         // Check if application is nil, passed in item is not guaranteed to be an object
         guard let runningApp = application else {
-            return RunningApplication(appName: "Unknown", architecture: "Unknown • Unknown", appImage: NSImage(), processorIcon: NSImage())
+            return RunningApplication(appName: "Unknown", architecture: "Cannot identify frontmost app", appImage: NSImage(named: "processor-icon-empty") ?? NSImage(), processorIcon: NSImage(named: "processor-icon-empty") ?? NSImage())
         }
         // After checking for nil, we can refer to runningApp, guarenteed to be NSRunningApplication
         let frontAppName = runningApp.localizedName ?? String()
