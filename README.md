@@ -15,6 +15,9 @@ Useful for quickly determining if an application is running natively on Apple Si
 ### Download from Mac App Store
 - [App store link](https://apps.apple.com/us/app/silicon-info/id1542271266)
 
+### Download from Homebrew
+- `brew install --cask silicon-info`
+
 ### Download release from Github
 - [Download zip](https://github.com/billycastelli/Silicon-Info/releases/download/1.0.3/Silicon.Info.app.zip) from repo
 - Move .app file to Applications folder
